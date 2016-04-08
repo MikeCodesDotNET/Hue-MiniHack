@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="iOS/HuesMiniHack.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HuesMiniHack/ViewModels/LightViewModel.cs">
+    <Files>
+      <File FileName="HuesMiniHack/Helpers/Settings.cs" Line="27" Column="45" />
+      <File FileName="HuesMiniHack/ViewModels/BridgeViewModel.cs" Line="34" Column="96" />
+      <File FileName="HuesMiniHack/ViewModels/LightsViewModel.cs" Line="84" Column="10" />
+      <File FileName="HuesMiniHack/ViewModels/LightViewModel.cs" Line="10" Column="6" />
+      <File FileName="HuesMiniHack/Views/LightPage.xaml" Line="10" Column="1" />
+      <File FileName="HuesMiniHack/ViewModels/BridgeRegisterViewModel.cs" Line="25" Column="27" />
+      <File FileName="HuesMiniHack/Views/LightPage.xaml.cs" Line="20" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HuesMiniHack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.50da88f3b9826aef671c07330783c1b011ae6aa5" />
+  <DisabledProjects>
+    <String>Droid/HuesMiniHack.Droid.csproj</String>
+  </DisabledProjects>
+</Properties>
