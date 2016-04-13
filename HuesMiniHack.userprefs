@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="iOS/HuesMiniHack.iOS.csproj">
+﻿<Properties StartupItem="Droid/HuesMiniHack.Droid.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="HuesMiniHack/Helpers/Settings.cs" Line="27" Column="45" />
@@ -11,10 +11,9 @@
       <File FileName="Droid/Resources/values/styles.xml" Line="2" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HuesMiniHack.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.98862743394f33554b" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HuesMiniHack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B93F0F51-E949-438A-BB04-D08F42619BF1" />
+  <MonoDevelop.Ide.ItemProperties.HuesMiniHack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EA8BF756-A0A4-46B9-B90D-DE050C713D10" />
 </Properties>
