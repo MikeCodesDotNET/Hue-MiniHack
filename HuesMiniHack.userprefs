@@ -11,12 +11,7 @@
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HuesMiniHack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.50da88f3b9826aef671c07330783c1b011ae6aa5" />
-  <DisabledProjects>
-    <String>Droid/HuesMiniHack.Droid.csproj</String>
-  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.HuesMiniHack.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B93F0F51-E949-438A-BB04-D08F42619BF1" />
 </Properties>
