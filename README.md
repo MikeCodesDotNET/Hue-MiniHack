@@ -53,6 +53,47 @@ You'll need to control Hue lamps from a Xamarin.Forms app.
    foreach (var light in lights)
    {
       Lights.Add(light);
-  }
+   }
    ```   
-    
+6. #### Turn a lamp on
+  Locate the LightViewModel class and add the following starting at line 90.
+  
+  ```csharp
+   var command = new LightCommand();
+   command.TurnOn();
+
+   var lights = new List<string> { SelectedLight.Id };
+   await client.SendCommandAsync(command, lights);
+   ```   
+   
+7. #### Turn a lamp off
+  Staying in the LightViewModel class, add the following starting at line 121.
+  
+  ```csharp
+   var command = new LightCommand();
+   command.TurnOff();
+
+   var lights = new List<string> { SelectedLight.Id };
+   await client.SendCommandAsync(command, lights);
+   ```   
+8. #### Set lamp to 'Alert'
+  Staying in the LightViewModel class, add the following starting at line 152.
+  
+  ```csharp
+   var command = new LightCommand();
+   command.Alert = Alert.Once;
+
+   var lights = new List<string> { SelectedLight.Id };
+   await client.SendCommandAsync(command, lights);
+   ```  
+9. #### Start color effect on lamp
+  Staying in the LightViewModel class, add the following starting at line 184.
+  
+  ```csharp
+   var command = new LightCommand();
+   command.Effect = Q42.HueApi.Effect.ColorLoop;
+
+   var lights = new List<string> { SelectedLight.Id };
+   await client.SendCommandAsync(command, lights);
+   ```  
+   
