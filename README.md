@@ -43,8 +43,8 @@ You'll need to control Hue lamps from a Xamarin.Forms app.
   ```csharp
    ILocalHueClient client = new LocalHueClient(Helpers.Settings.DefaultBridgeIP);
    client.Initialize(Helpers.Settings.AppKey);
-   ```      
- 5. #### Discover all Hue lamps connected to bridge
+   ```
+5. #### Discover all Hue lamps connected to bridge
   Staying in the LightsViewModel class, add the following after the client.Initialize method.
   
   ```csharp
@@ -54,5 +54,5 @@ You'll need to control Hue lamps from a Xamarin.Forms app.
    {
       Lights.Add(light);
   }
-   ```       
+   ```   
     
