@@ -17,6 +17,7 @@ namespace HuesMiniHack.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+            Acr.UserDialogs.UserDialogs.Init(this);
 
             base.OnCreate(bundle);
 
