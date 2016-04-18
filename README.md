@@ -1,6 +1,6 @@
 # Hue-MiniHack
 
-Let's insert some marketing fluff about how amazing Philip Hue is. 
+Amazing Philip Hue: [Turn On Living video on YouTube] (https://www.youtube.com/watch?v=lCv4r3wgsPQ) 
 
 Before you start, you'll want to signup to the [Philips Hue Developer](http://www.developers.meethue.com) program which unlocks detailed API information and wealth or resources t for expanding your knowledge of Hue. 
 
