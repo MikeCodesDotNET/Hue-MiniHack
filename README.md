@@ -96,4 +96,5 @@ You'll need to control Hue lamps from a Xamarin.Forms app.
    var lights = new List<string> { SelectedLight.Id };
    await client.SendCommandAsync(command, lights);
    ```  
-   
+## Win a Hue Starter Kit
+Take the mini-hack and extended to do something unique that demonstrates why Hue is a great platform to developer and be entered to win a starter kit (5 available). 
