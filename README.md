@@ -9,6 +9,8 @@ Before you start, you'll want to signup to the [Philips Hue Developer](http://ww
 ## The Challenge
 You'll need to control Hue lamps from a Xamarin.Forms app. 
 
+> You'll want to ensure that you've restored the Nuget packages before trying to build the project. You may also need to configure Android deployment within the configuration manager in VS to deploy to a simulator or device (this isn't applicable for those of you using Xamarin Studio). 
+
 ### Whitelisting and permission to access the bridge
 
 1. #### Set your Apps name and Device name. 
