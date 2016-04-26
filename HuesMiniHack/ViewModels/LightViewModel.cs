@@ -87,11 +87,6 @@ namespace HuesMiniHack.ViewModels
                     CreateClient();
                 
                 //TODO 6: Turn lamp on
-                var command = new LightCommand();
-                command.TurnOn();
-
-                var lights = new List<string> { SelectedLight.Id };
-                await client.SendCommandAsync(command, lights);
 
                 OnPropertyChanged("LampStatus");
             }
@@ -118,11 +113,6 @@ namespace HuesMiniHack.ViewModels
                     CreateClient();
 
                 //TODO 7: Turn lamp off
-                var command = new LightCommand();
-                command.TurnOff();
-
-                var lights = new List<string> { SelectedLight.Id };
-                await client.SendCommandAsync(command, lights);
 
                 OnPropertyChanged("LampStatus");
             }
@@ -149,11 +139,6 @@ namespace HuesMiniHack.ViewModels
                     CreateClient();
 
                 //TODO 8: Set alert
-                var command = new LightCommand();
-                command.Alert = Alert.Once;
-
-                var lights = new List<string> { SelectedLight.Id };
-                await client.SendCommandAsync(command, lights);
 
                 OnPropertyChanged("LampStatus");
             }
@@ -180,11 +165,6 @@ namespace HuesMiniHack.ViewModels
                     CreateClient();
 
                 //TODO 9: Start color effect
-                var command = new LightCommand();
-                command.Effect = Q42.HueApi.Effect.ColorLoop;
-
-                var lights = new List<string> { SelectedLight.Id };
-                await client.SendCommandAsync(command, lights);
 
                 OnPropertyChanged("LampStatus");
                 }

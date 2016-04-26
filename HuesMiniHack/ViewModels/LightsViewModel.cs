@@ -60,16 +60,8 @@ namespace HuesMiniHack.ViewModels
                 }
 
                 //TODO 4: New up a LocalHueClient and Initialize it.
-                ILocalHueClient client = new LocalHueClient(Helpers.Settings.DefaultBridgeIP);
-                client.Initialize(Helpers.Settings.AppKey);
-                      
+
                 //TODO 5: Discover all the lamps connected to the bridge
-                IEnumerable<Light> lights = await client.GetLightsAsync();
-                Lights.Clear();
-                foreach (var light in lights)
-                {
-                    Lights.Add(light);
-                }
 
             }
             catch (Exception ex)

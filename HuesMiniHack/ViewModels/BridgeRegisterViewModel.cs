@@ -27,10 +27,6 @@ namespace HuesMiniHack.ViewModels
             try
             {
                 //TODO 3: Register your application
-                ILocalHueClient client = new LocalHueClient(SelectedBridgeIP);
-                if(string.IsNullOrEmpty(Helpers.Settings.AppKey))
-                    Helpers.Settings.AppKey = await client.RegisterAsync(App.AppName, App.DeviceName);
-                client.Initialize(Helpers.Settings.AppKey);
 
                 Acr.UserDialogs.UserDialogs.Instance.ShowSuccess("Added Bridge!");
             }

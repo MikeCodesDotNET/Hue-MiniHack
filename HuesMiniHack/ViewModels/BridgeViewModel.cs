@@ -57,14 +57,7 @@ namespace HuesMiniHack.ViewModels
             try
             {
                 //TODO 2: Implement Bridge locator
-                IBridgeLocator locator = new HttpBridgeLocator();
-                IEnumerable<string> bridgeIPs = await locator.LocateBridgesAsync(TimeSpan.FromSeconds(5));
 
-                BridgeIps.Clear();
-                foreach (var ip in bridgeIPs)
-                {
-                    BridgeIps.Add(ip);
-                }
             }
             catch (Exception ex)
             {
